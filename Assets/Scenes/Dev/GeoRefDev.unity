@@ -521,6 +521,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 33019645332297352, guid: 102812705d6514143ade5a12c4d0c021, type: 3}
+      propertyPath: m_DrawHeightmap
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33019645332297352, guid: 102812705d6514143ade5a12c4d0c021, type: 3}
+      propertyPath: m_DrawInstanced
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4094483034573474821, guid: 102812705d6514143ade5a12c4d0c021, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1354
@@ -588,15 +596,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4800906380731054, guid: b2f9c349e7f9f430eae6dba87f83d39d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.97
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4800906380731054, guid: b2f9c349e7f9f430eae6dba87f83d39d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4800906380731054, guid: b2f9c349e7f9f430eae6dba87f83d39d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.66
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4800906380731054, guid: b2f9c349e7f9f430eae6dba87f83d39d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -625,6 +633,10 @@ PrefabInstance:
     - target: {fileID: 4800906380731054, guid: b2f9c349e7f9f430eae6dba87f83d39d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3179540796430959622, guid: b2f9c349e7f9f430eae6dba87f83d39d, type: 3}
+      propertyPath: m_Immovable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6110627571383574328, guid: b2f9c349e7f9f430eae6dba87f83d39d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -893,6 +905,10 @@ PrefabInstance:
     - target: {fileID: 1044450836926195353, guid: 78d04dcbae40bc646a35e455b2c6fc2b, type: 3}
       propertyPath: m_Name
       value: sam_auv_v1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044450836926195353, guid: 78d04dcbae40bc646a35e455b2c6fc2b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1147570726954915425, guid: 78d04dcbae40bc646a35e455b2c6fc2b, type: 3}
       propertyPath: m_LocalPosition.x
