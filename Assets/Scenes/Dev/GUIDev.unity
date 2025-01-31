@@ -974,6 +974,7 @@ GameObject:
   - component: {fileID: 339760623}
   - component: {fileID: 339760624}
   - component: {fileID: 339760625}
+  - component: {fileID: 339760626}
   m_Layer: 0
   m_Name: GUI
   m_TagString: Untagged
@@ -1052,6 +1053,22 @@ MonoBehaviour:
   GeoPointParamPrefab: {fileID: 5193145669377553919, guid: 26fa60fe5a4709346aa4c61309083d6b, type: 3}
   ListParamPrefab: {fileID: 4724736429469239046, guid: e5af100246a2b3d469d9e861d6259b83, type: 3}
   SelectedTSTGUI: {fileID: 0}
+--- !u!114 &339760626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339760622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d331b6d8d4b865e4f8d871e353237092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ServerAddressInput: {fileID: 7448842109458940390}
+  PortInput: {fileID: 341112674}
+  ConnectButton: {fileID: 2046777423}
+  DisconnectButton: {fileID: 700340423}
 --- !u!1 &341112672
 GameObject:
   m_ObjectHideFlags: 0
@@ -2320,7 +2337,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 480, y: 400}
+  m_SizeDelta: {x: 480, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &553700123
 MonoBehaviour:
@@ -7079,7 +7096,6 @@ GameObject:
   - component: {fileID: 2030300790}
   - component: {fileID: 2030300789}
   - component: {fileID: 2030300788}
-  - component: {fileID: 2030300787}
   m_Layer: 0
   m_Name: MQTTPanel
   m_TagString: Untagged
@@ -7107,22 +7123,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 480, y: 42}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2030300787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030300785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d331b6d8d4b865e4f8d871e353237092, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ServerAddressInput: {fileID: 7448842109458940390}
-  PortInput: {fileID: 341112674}
-  ConnectButton: {fileID: 2046777423}
-  DisconnectButton: {fileID: 700340423}
 --- !u!114 &2030300788
 MonoBehaviour:
   m_ObjectHideFlags: 0
