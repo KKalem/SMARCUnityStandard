@@ -13086,10 +13086,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 561130099}
     m_Modifications:
-    - target: {fileID: 634689293313602841, guid: 87917f9c7f773bb4d9d59f11ce469ba8, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 999908645906117283, guid: 87917f9c7f773bb4d9d59f11ce469ba8, type: 3}
       propertyPath: m_Name
       value: RobotGUIOverlayPrefab
@@ -13176,10 +13172,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2054881662600181711, guid: 87917f9c7f773bb4d9d59f11ce469ba8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8945778148240089710, guid: 87917f9c7f773bb4d9d59f11ce469ba8, type: 3}
-      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
